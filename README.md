@@ -15,19 +15,19 @@ Abra `dist/index.html` em um navegador ou sirva a pasta `dist` com um servidor e
 
 ## Limites atuais
 
-Os dados são armazenados apenas no navegador. Não há contas, sincronização entre dispositivos, integração com LMS ou pacotes SCORM produzidos. Não é ainda um SaaS de produção. Não inserir informações confidenciais nesta demonstração.
+Os dados são armazenados apenas no navegador. Não há contas, sincronização entre dispositivos ou integração automática com LMS. Pacotes SCORM demonstrativos estão disponíveis, mas ainda precisam de validação no LMS de destino. Não é ainda um SaaS de produção.
 
 ## Próximas entregas
 
 1. Personalizar autoria e posicionamento profissional.
-2. Produzir estudo de caso completo: LNT, planejamento, roteiro e storyboard.
-3. Criar e validar demonstrações SCORM 1.2 e 2004 em LMS.
-4. Acrescentar evidências visuais e audiovisuais.
-5. Publicar o repositório no GitHub sem alterar projetos existentes.
+2. Revisar o estudo de caso com especialista e público representativo.
+3. Validar os pacotes SCORM 1.2 e 2004 em LMS real.
+4. Gravar e editar áudio/vídeo a partir do roteiro disponível.
+5. Completar revisão formal de acessibilidade e teste com leitor de tela.
 
 ## Progresso do escopo geral
 
-65% estimados: interface publicada no GitHub Pages; orçamento por área, gráficos, filtros e exportação preparados. Evidências instrucionais e validação SCORM pendentes. Percentuais dos cartões são exemplos independentes.
+80% estimados: painel, orçamento, entrada manual/Excel, execução, estudo de caso, curso interativo e pacotes preparados. Validação em LMS, produção audiovisual e revisão formal de acessibilidade pendentes. Percentuais dos cartões são exemplos independentes.
 
 ## Orçamento por área
 Verba anual, pagamentos e reservas por treinamento. Disponível = aprovado - pago - a pagar. Valores demonstrativos, editáveis e salvos somente no navegador. Inclui filtros por ano/área, alertas de saldo negativo, impressão e exportação CSV.
