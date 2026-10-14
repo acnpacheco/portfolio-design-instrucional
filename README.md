@@ -27,7 +27,7 @@ Os dados são armazenados apenas no navegador. Não há contas, sincronização 
 
 ## Progresso do escopo geral
 
-80% estimados: painel, orçamento, entrada manual/Excel, execução, estudo de caso, curso interativo e pacotes preparados. Validação em LMS, produção audiovisual e revisão formal de acessibilidade pendentes. Percentuais dos cartões são exemplos independentes.
+85% estimados: painel, orçamento, entrada manual/Excel, execução, estudo de caso, curso interativo e pacotes preparados. Validação em LMS, produção audiovisual e revisão formal de acessibilidade pendentes. Percentuais dos cartões são exemplos independentes.
 
 ## Orçamento por área
 Verba anual, pagamentos e reservas por treinamento. Disponível = aprovado - pago - a pagar. Valores demonstrativos, editáveis e salvos somente no navegador. Inclui filtros por ano/área, alertas de saldo negativo, impressão e exportação CSV.
@@ -45,4 +45,8 @@ Referências: [ATD 2026](https://www.td.org/content/atd-blog/2026-state-of-the-i
 - SheetJS CE 0.20.3 distribuído localmente; licença em dist/vendor/SheetJS-LICENSE.txt.
 
 Verificação: cálculos de orçamento, filtros, saldo negativo, importação com atualização sem duplicação, indicadores, datas inválidas, limites de contagem e ausência versus zero.
+
+
+## Qualidade e acessibilidade
+O módulo Qualidade & validação mantém um checklist separado para SCORM 1.2 e 2004. Todos os testes em LMS começam pendentes. Resultados Aprovado/Falhou exigem plataforma e observação. Os registros ficam neste navegador e podem ser exportados em JSON. Melhorias de teclado, foco, rótulos, tabelas e contraste estão descritas em dist/assets/case/06-revisao-acessibilidade.md. Revisão com leitor de tela e validação no LMS real continuam pendentes.
 

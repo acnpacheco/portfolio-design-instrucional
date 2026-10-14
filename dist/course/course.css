@@ -2,3 +2,4 @@
 
 .demo-navigation{align-items:center;margin:20px 0}.demo-navigation a,.result-navigation a{color:#6349b9;font-size:13px;font-weight:600}.demo-navigation span{font-size:12px;color:#70677d}.result-navigation{margin-bottom:24px}.result-navigation .back-primary{background:#6e53cb;color:white;border-radius:9px;padding:13px 18px;text-decoration:none}
 
+footer{color:#625d74}.course-skip{position:fixed;top:8px;left:8px;z-index:100;background:white;border:2px solid #6e53cb;padding:12px;color:#4e3897;transform:translateY(-180%)}.course-skip:focus{transform:translateY(0)}@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important}}
