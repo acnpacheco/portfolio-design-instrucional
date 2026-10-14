@@ -16,7 +16,7 @@ def manifest(version):
     version_label = '2004 4th Edition' if is2004 else '1.2'
     mastery = '' if is2004 else '<adlcp:masteryscore>75</adlcp:masteryscore>'
     sequence = '<imsss:sequencing><imsss:objectives><imsss:primaryObjective objectiveID="atendimento" satisfiedByMeasure="true"><imsss:minNormalizedMeasure>0.75</imsss:minNormalizedMeasure></imsss:primaryObjective></imsss:objectives></imsss:sequencing>' if is2004 else ''
-    files = ''.join(f'<file href="{f}"/>' for f in ['index.html', 'course.css', 'course.js', 'scorm.js', 'config.js'])
+    files = ''.join(f'<file href="{f}"/>' for f in ['index.html', 'course.css', 'course.js', 'navigation.js', 'scorm.js', 'config.js'])
     return f'''<?xml version="1.0" encoding="UTF-8"?>
 <manifest identifier="FORMA_ATENDIMENTO_{version}" version="1.0" xmlns="{namespace}" xmlns:adlcp="{adl}" xmlns:imsss="http://www.imsglobal.org/xsd/imsss">
 <metadata><schema>ADL SCORM</schema><schemaversion>{version_label}</schemaversion></metadata>
@@ -30,7 +30,7 @@ for version, filename in [('1.2', 'atendimento-scorm12.zip'), ('2004', 'atendime
     with zipfile.ZipFile(target, 'w', zipfile.ZIP_DEFLATED) as archive:
         archive.writestr('imsmanifest.xml', xml)
         archive.writestr('config.js', f"window.FORMA_SCORM_VERSION='{version}';\n")
-        for file in ['index.html', 'course.css', 'course.js', 'scorm.js']:
+        for file in ['index.html', 'course.css', 'course.js', 'navigation.js', 'scorm.js']:
             archive.write(COURSE / file, file)
     with zipfile.ZipFile(target) as archive:
         names = set(archive.namelist())
@@ -40,3 +40,4 @@ for version, filename in [('1.2', 'atendimento-scorm12.zip'), ('2004', 'atendime
                 assert node.attrib['href'] in names
         assert archive.testzip() is None
     print(f'{filename}: XML legível, referências locais e integridade ZIP conferidas.')
+
