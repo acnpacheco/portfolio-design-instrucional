@@ -27,4 +27,10 @@ Os dados são armazenados apenas no navegador. Não há contas, sincronização 
 
 ## Progresso do escopo geral
 
-35% estimados: estrutura e primeira interface preparadas. Publicação, evidências instrucionais e validação SCORM pendentes. Percentuais dos cartões são exemplos independentes.
+50% estimados: interface publicada no GitHub Pages; orçamento por área, gráficos, filtros e exportação preparados. Evidências instrucionais e validação SCORM pendentes. Percentuais dos cartões são exemplos independentes.
+
+## Orçamento por área
+Verba anual, pagamentos e reservas por treinamento. Disponível = aprovado - pago - a pagar. Valores demonstrativos, editáveis e salvos somente no navegador. Inclui filtros por ano/área, alertas de saldo negativo, impressão e exportação CSV.
+
+Referências: [ATD 2026](https://www.td.org/content/atd-blog/2026-state-of-the-industry-report-indicates-latest-td-trends) e [CIPD](https://www.cipd.org/uk/knowledge/factsheets/evaluating-learning-factsheet/).
+
